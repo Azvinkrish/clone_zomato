@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    background-image: url(images/headerimage.avif);
+    width: 100vw; 
+    height: 95vh;  
+
+
+}
+html{
+   overflow-x: hidden;
+}
+
+.head img {
+    object-fit: contain;
+}
+
+.nav{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 60px;
+    color: #fff;
+}
+.nav-bar{
+    list-style: none;
+ 
+    
+}
+.nav-bar ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+}
+.nav-bar li{
+    font-size: 1em;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+
+   
+
+}
+.nav-bar a{
+display: flex;
+color: #fff;
+text-decoration: none;
+font-size: 25px;
+text-transform: uppercase;
+padding: 0px 32px;
+}
+
+.box_4 img{
+    position: relative;
+}
+
+.box_4 img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 3;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vw;
+    align-items: center;
+   text-decoration: none;
+   color: #fff; 
+   
+}
+.logo{
+    justify-content: center;
+    width: 300px;
+    height: 75px;
+}
+.head h3{
+    padding-top: 60px;
+    font-size: 2.1em;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.search{
+    margin-top: 20px;
+    display: flex;
+   width: 55vw;
+   align-items: center;
+   justify-content: flex-start;
+   border-radius: 10px;
+   background-color: #fff;
+   padding: 5px 0; 
+}
+.search input{
+    outline: none;
+    border: none;
+   width: 50%;
+   height: 40px;
+   padding-left: 10px;
+   font-size: 15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search p{
+    color: grey;
+    border-right: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+.map_icon{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+}
+.search_icon{
+    width: 20px;
+    height: 20px;
+}
+.sec_1{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 13vh;
+
+}
+.box{
+    
+    position: relative;
+    margin: 65px 150px;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: index -1; ;
+    object-position: 15em;
+    box-shadow: .1px .1px 2px #222;
+}
+.box .order_online{
+    padding: 20px;
+position: absolute;
+bottom: 0px;
+background-color: #fff;
+width: 100%;
+
+}
+.box img{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.collection{    
+    margin-left: 150px ;
+display: flex;
+
+
+}
+.collection h4{
+    align-content: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:none;
+    font-weight: lighter;
+
+}
+.collection p{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+    font-weight: 500;
+    
+    
+}
+.collection p1{
+    justify-content: right;
+    color: red;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+    font-size: 15px;
+  
+}
+
+
+.sec_2{
+    margin-top: 20px;
+   display: flex;
+   padding-left: 150px;
+   width: 100vw;
+   align-items: center;
+   align-content: center;
+   gap: 30px;
+}
+.sec_2 img {
+    width: 250px;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.sec_2 .r {
+    position: relative;
+}
+
+.sec_2 .f {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    bottom: 10%;
+    left: 5%;
+}
+.foot-head,.foot-head2,.foot-head3 {
+    margin-left: 150px;
+}
+.bottom-head h1{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+
+
+}
+.locbox{
+    padding-left: 150px;
+  width: 600px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+grid-template-columns: 340px 340px 340px;
+grid-template-rows: auto;
+}
+
+.locbox p{
+    border: 1px solid rgb(235,233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223,223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    border: gray; 
+    padding-left: 30px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.getapp{
+    padding-top: 250px;
+    display: flex;
+}
+.getapp img{
+    margin-top:50px;
+    padding-left: 300px; 
+    /* align-items: center;
+    justify-content: center;
+    align-content: center; */
+    width: 275px;
+    height: 250px;
+}
+.getapp-head h1{
+    margin-left: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 520;
+    font-size: 40px;
+
+}
+.getapp-head p{
+    margin-top: 20px;
+    margin-left: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+
+
+}
+.rdbtn{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    gap: 50px;
+}
+.inpt input{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: gray;
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.inpt button{
+    background-color: #e03546;
+    border-style: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.b1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    accent-color: red;
+    margin-right: 15px;
+}
+.app1{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    color: #9c9c9c;  
+}
+.appstr{
+    padding-left: 560px;
+}
+.appstr img{
+    padding-left: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.foot-head h1{
+    margin-top: 150px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+
+}
+.foot-head h4{
+    margin-top: 40px;
+    font-size: 23px;
+    font-style: none;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    
+}
+.foot-head a{
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.95rem;
+}
+
+
+.foot-head2 h4{
+    margin-top: 80px;
+    font-style: none;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;  
+    margin-bottom: 40px;
+}
+.foot-head2 a{
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: none;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.95rem;
+
+}
+.foot-head3 h3{
+    margin-top: 90px;
+    font-style: none;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;  
+    margin-bottom: 40px;
+}
+.ft-list a{
+
+    width: 190px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 15px 0;
+    color: #828282;
+}
+.ft1 img{
+    width: 128px;
+    height: 32px;
+}
+.foot-load{
+    padding: 40px 120px;
+    background-color: #f8f8f8;
+}
+.ft1{
+    display: flex;
+    justify-content: space-between;
+}
+.ft1-1{
+    display: flex;
+}
+.ft1-1 span{
+    padding: 10px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+.ft2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+
+}
+.ft2 div{
+    width: 200px;
+}
+.ft2 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.ft2 a{
+    margin-top: 10px;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #696969;
+    font-size: 0.9rem;
+}
+
+.boxz img {
+width: 150;
+height: 50px;
+margin-bottom: 20px;
+}
+.copy p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size:12px ;
+}
+.iconft{
+    display: flex;
+}
+.iconft img{
+    width: 30;
+    height: 30;
+}
